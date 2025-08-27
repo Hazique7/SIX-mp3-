@@ -1,0 +1,49 @@
+/* Download Page */
+.resultBox {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Video Info */
+.videoInfo {
+  text-align: left;
+}
+
+.videoTitle {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.videoLength {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* Download Button */
+.downloadBtn {
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #7b1fa2, #e53935);
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.downloadBtn:hover {
+  opacity: 0.85;
+}
+
+/* Footer */
+.footer {
+  margin-top: 20px;
+  font-size: 12px;
+  opacity: 0.7;
+}
+/* Info Box - bottom left */
+
