@@ -1,9 +1,9 @@
-import { URL } from 'url';
-
 // This file is located in the `app` directory and is automatically detected by Next.js
 // to generate a sitemap.xml file.
 
-import { URL } from 'url';
+// The `URL` constructor is a global object in Node.js, so this import is not needed
+// and causes a build error.
+// import { URL } from 'url';
 
 // Define your base URL. This is important for Vercel deployments.
 const baseURL = 'https://six-mp3.vercel.app'; // **CRITICAL:** Replaced with your actual domain URL
