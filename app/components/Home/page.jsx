@@ -87,15 +87,22 @@ export default function Home() {
 </a>
         </div>
 
-        <button
-          className="downloadBtn"
-          onClick={() => {
-            setDownloadData(null);
-            setLink("");
-          }}
-        >
-          Convert Another
-        </button>
+       <button
+  style={{
+    backgroundColor: "#59182b",
+    color: "white",
+    border: "none",
+    padding: "0.5rem 0.8rem",
+    borderRadius: "0.3rem",
+    cursor: "pointer"
+  }}
+  onClick={() => {
+    setDownloadData(null);
+    setLink("");
+  }}
+>
+  Convert Another
+</button>
 
         <p className="footer">by HAZIQUE AHMED KHAAN</p>
       </div>

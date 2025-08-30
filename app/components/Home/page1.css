@@ -26,7 +26,7 @@
 /* Download Button */
 .downloadBtn {
   padding: 12px 20px;
-  background: linear-gradient(135deg, #7b1fa2, #e53935);
+   background: radial-gradient(at left top, #6F1744, #F46A66);
   color: white;
   font-weight: bold;
   text-decoration: none;
@@ -60,15 +60,15 @@ body {
 }
 
 .title {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
 }
 
 .subtitle {
-  font-size: 0.9rem;
-  font-weight: 600;
-  margin-bottom: 0.3rem;
+   
+    font-weight: 300;
+    margin-bottom: 0.3rem;
 }
 
 .tagline {
@@ -91,17 +91,13 @@ body {
   font-size: 0.9rem;
   border: none;
   outline: none;
-  color: #333;
+  color: radial-gradient(at left top, #6F1744, #F46A66);
   background-color: #d9d9d9;
 }
 
 .button {
   width: 100px;
-  /* text-align: center;
-  align-items: center;
-  justify-content: center;
-  justify-items: center; */
-  background: #9d174d;
+  background: radial-gradient(at left top, #6F1744, #F46A66);
   color: white;
   font-weight: 600;
   font-size: 0.85rem;
@@ -150,7 +146,7 @@ body {
 }
 
 .downloadBtn {
-  background: #be185d;
+  background: radial-gradient(at left top, #6F1744, #F46A66);
   border: none;
   color: white;
   font-size: 0.75rem;
@@ -247,6 +243,22 @@ body {
   font-weight: 300;
   opacity: 0.85;
 }
+.title {
+font-size: 5rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+     font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 0.3rem;
+}
+
+.tagline {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
 /* ✅ Adjustments for small screens like 375x667 */
 @media (max-width: 400px) {
   .card {
@@ -316,5 +328,8 @@ body {
   .infoBox p {
     font-size: 12px;
   }
+}
+@media (max-width: 600px) {
+  
 }
 }
