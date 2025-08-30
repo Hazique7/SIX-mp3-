@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import "./page1.css";
-import "./download.css";
+
 
 export default function Home() {
   const [link, setLink] = useState("");
