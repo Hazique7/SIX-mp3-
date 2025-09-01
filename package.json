@@ -2,13 +2,12 @@
   "name": "yt-mp3",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build && node obfuscate.js",
-    "start": "next start",
-    "lint": "eslint",
-    "postbuild": "node obfuscate.js"
-  },
+ "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "postbuild": "node obfuscate.js"
+},
   "dependencies": {
     "next": "15.5.0",
     "react": "19.1.0",
