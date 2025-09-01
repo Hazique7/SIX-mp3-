@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build && node obfuscate.js",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "postbuild": "node obfuscate.js"
   },
   "dependencies": {
     "next": "15.5.0",
