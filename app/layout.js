@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "SIX(mp3)",
   description: "Youtube to mp3 APP developed by Hazique Ahmed Khaan",
+  alternates: {
+    canonical: "https://six-mp3.vercel.app/",
+  },
 };
 
 export default function RootLayout({ children }) {
